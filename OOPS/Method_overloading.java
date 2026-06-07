@@ -1,26 +1,21 @@
 package OOPS;
 
-class calculator{
+class calculator2{
     public int add(int n1, int n2){
         return n1+n2;
     }
-    public int sub(int n1, int n2){
-        return n1-n2;
-    }
-    public int mul(int n1, int n2){
-        return n1*n2;
-    }
-    public int div(int n1, int n2){
-        return n1/n2;
+    public int add(int n1, int n2,int n3){
+        return n1+n2+n3;
     }
 }
 
-public class Class_and_objects {
+public class Method_overloading {
     public static void main(String args[]){
         int n1=5;
         int n2=3;
-        calculator c = new calculator();
-        int res = c.mul(n1,n2);
+        // int n3=7;
+        calculator2 c = new calculator2();
+        int res = c.add(n1,n2);
         // int res = c.add(n1,n2);
         // int res = c.sub(n1,n2);
         // int res = c.div(n1,n2);
